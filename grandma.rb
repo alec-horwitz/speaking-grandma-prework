@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  if string == string.upcase && !"I LOVE YOU GRANDMA!"
+  if string == string.upcase
     string = "NO, NOT SINCE 1938!"
-  elsif string == "I LOVE YOU GRANDMA!"
+  elsif string == "I LOVE YOU GRANDMA!" || "I LOVE YOU GRANDMA!"
     string = "I LOVE YOU TOO PUMPKIN!"
   else
     string = "HUH?! SPEAK UP, SONNY!"
